@@ -17,6 +17,7 @@ import matplotlib.pyplot as plt
 from matplotlib import interactive
 
 def Show(img,title="image"):
+    #comment line below in and out if you want to see results at every step
     return
     cv2.imshow(title,img)
     cv2.waitKey()
